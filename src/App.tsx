@@ -272,9 +272,7 @@ export default function App() {
               KEYA
             </p>
             <div className="mt-8 inline-block px-6 py-2 bg-red-800/80 text-white text-sm font-bold rounded-sm uppercase tracking-[0.2em] animate-pulse shadow-xl shadow-red-950/80 border border-red-600/30 backdrop-blur-sm">
-              энийг Дарж үзвэл
-              нэг бол инээд чинь хүрнэ 
-              нэг бол гайхна
+              энийг Дарж үзвэл сүүдэрт үлдэнэ
             </div>
           </motion.div>
         )}
@@ -311,12 +309,12 @@ export default function App() {
                 <div className="space-y-6 text-left border-l border-red-900/40 pl-6 ml-2">
                   <motion.div initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.8 }} className="group">
                     <p className="font-bold text-red-800 text-sm uppercase tracking-widest mb-1 group-hover:text-red-600 transition-colors">The way you shine</p>
-                    <p className="text-lg text-slate-300 font-medium leading-relaxed italic">Магадгүй чи анзаараагүй байж магадгүй л дээ ...гэхдээ ядаж ингэж чамд сэтгэлтэй байсан аа илэрхийлэхийг хүссэн юм.</p>
+                    <p className="text-lg text-slate-300 font-medium leading-relaxed italic">ربما لم تلاحظ لكنني أردت على الأقل أن أعبر لك عن مشاعري هكذا</p>
                   </motion.div>
                   
                   <motion.div initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 1.6 }} className="group">
                     <p className="font-bold text-red-800 text-sm uppercase tracking-widest mb-1 group-hover:text-red-600 transition-colors">Always on my mind</p>
-                    <p className="text-lg text-slate-300 font-medium leading-relaxed italic">Анх зүгээр харчаад ямар  хөөрхөн охин бэ гэж  хараад л яваад л байсан надад танилцах зориг байгаагүй ингэж явсаар жил хагас болсон байна DDx^^ .</p>
+                    <p className="text-lg text-slate-300 font-medium leading-relaxed italic">في البداية، رأيتها فقط وفكرت "يا له من فتاة جميلة" ثم مضيت لم يكن لدي الشجاعة للتعرف عليها، واستمر الحال هكذا حتى مر سنة ونصف DDx^.^ .</p>
                   </motion.div>
                 </div>
 
